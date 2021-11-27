@@ -4,7 +4,7 @@
 
 [template.environment]
   BASE_URL="https://saulo.codes"
-  GOOGLE_ANALYTICS_ID=
+  GOOGLE_ANALYTICS_ID=""
   NOTION_TABLE_ID="cd240ed3c58d49608077d21352ada309"
   NOTION_ABOUT_PAGE_ID="Hi-there-cc487b79fd7f40ba8e14b1f3ec4a82c7"
   GITHUB_USERNAME="sauloco"
