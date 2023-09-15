@@ -5,12 +5,12 @@
         <div class="logo">
           <nuxt-link to="/">
 
-            <h1 class="text-2xl font-semibold text-gray-700 dark:text-gray-200">{{ $config.devLogo }}</h1>
+            <h1 class="text-2xl font-semibold text-gray-700 dark:text-gray-200">{{ $config.devIso}} {{ $config.devLogo }}</h1>
           </nuxt-link>
         </div>
 
         <div class="flex flex-row">
-          <nuxt-link class="nav-link" to="/posts">Blog</nuxt-link>
+          <nuxt-link class="nav-link" to="/posts">Posts</nuxt-link>
           <nuxt-link class="nav-link" to="/about">About</nuxt-link>
           <ColorSwitcher/>
         </div>

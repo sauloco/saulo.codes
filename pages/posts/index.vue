@@ -1,5 +1,5 @@
 <template>
-  <Blogs :posts="posts" title="Blogs"/>
+  <Blogs :posts="posts" title="Posts"/>
 </template>
 
 
@@ -11,7 +11,7 @@ export default {
     return {posts}
   },
   head: {
-    title: process.env.GITHUB_USERNAME + "'s Blog",
+    title: process.env.DEV_LOGO + " Posts",
     meta: [
       {
         hid: 'description',

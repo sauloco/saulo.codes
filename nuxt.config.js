@@ -90,6 +90,7 @@ export default {
     devTwitterLink: process.env.DEV_TWITTER_LINK,
     devLinkedinLink: process.env.DEV_LINKEDIN_LINK,
     devLogo: process.env.DEV_LOGO,
+    devIso: process.env.DEV_ISO,
   },
 
 }

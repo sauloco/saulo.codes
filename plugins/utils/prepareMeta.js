@@ -66,13 +66,14 @@ export default function prepareMeta(
     )
 
   const defaultKeywords = [
-    "python",
-    "django",
+    "vue",
+    "javascript",
     "developer",
     "portfolio",
-    "docker",
-    "graphql",
-    "elasticsearch",
+    "nuxt",
+    "typescript",
+    "mongodb",
+    "strapi",
   ]
 
   if (keywords)

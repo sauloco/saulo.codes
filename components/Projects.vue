@@ -37,7 +37,7 @@
         <div class='flex items-center justify-center'>
           <a
             class='bg-black w-full md:w-auto flex items-center justify-center px-10 md:px-24 py-3 shadow-md hover:bg-gray-800 rounded-lg text-white'
-            href='https://github.com/aymaneMx'
+            :href='githubLink'
             rel="noreferrer"
             target='_blank'
           >
@@ -56,7 +56,11 @@ export default {
     projects: {
       type: Array,
       default() {return []}
-    }
+    },
+    githubLink: {
+      type: String,
+      default: '',
+    },
   }
 }
 </script>
